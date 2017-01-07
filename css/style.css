@@ -1,0 +1,82 @@
+body {background: #f1f1f1; font-family: 'Lora', serif; font-size: 1rem; color: white}
+
+.timeline {position: relative;overflow: auto;width: 100%;margin-top: 40px; }
+.timeline::before {content: ''; position: absolute; top: 0; left: 50%; margin: 0 auto; height: 100%; width: 0.1rem; background-color: #065743; }
+
+.timeline p.timeline-year { margin: 0 auto; width: 130px; color: #0a9f7a; background: #f1f1f1; text-align: center; font-size: 30px; position: relative; z-index: 2; }
+.timeline h3 { color: inherit; font-weight: 300; display: inline-block;}
+
+.timeline .timeline-list { list-style-type: none; overflow: hidden; padding-top: 110px; padding-left: 0; }
+.timeline .timeline-list .timeline-object {position: relative;margin-bottom: 100px;left: 2.4%;padding: 20px;background-color: #5c1d7d;width: 42%; }
+.timeline .timeline-list .timeline-object h3 {font-weight: 700; margin: 1rem 0 }
+.timeline .timeline-list .timeline-object .fa {float: right; font-size: 2.5rem; margin: 0.3rem 0; position: absolute; right: 1rem; top:30%}
+.timeline .timeline-list .timeline-object.hidden {visibility: hidden; }
+.timeline .timeline-list .timeline-object a {font-weight: 700; }
+.timeline .timeline-list .timeline-object time::before {font-family: FontAwesome, sans-serif;content: '\f017';margin-right: 10px; }
+.timeline .timeline-list .timeline-object::before {content: '';width: 0;height: 0;position: absolute;right: -1em;top: 0; border-top: 1em solid #5c1d7d; border-right: 1em solid transparent;}
+.timeline .timeline-list .timeline-object::after {content: '';background: #065743;width: 30px;height: 30px;position: absolute;top: -15px;border-radius: 100%;left: calc(100% + 4.1%); }
+
+
+.timeline .timeline-list .timeline-object.rightside {position: relative;left: 54%;text-align: right; background-color: #EF0C74; width: 41%}
+.timeline .timeline-list .timeline-object.rightside .fa {float: left; left: 1rem; right: 100% }
+.timeline .timeline-list .timeline-object.rightside::before {content: '';width: 0;height: 0;position: absolute;left: -1em;top: 0; border-top: 1em solid #EF0C74;border-left: 1em solid transparent; }
+.timeline .timeline-list .timeline-object.rightside::after {content: '';background: #065743;width: 30px;height: 30px;position: absolute;top: -15px;border-radius: 100%;left: calc(-8.78% - 1rem); }
+
+
+.timeline .timeline-list .timeline-object.centered {position: relative;text-align: center;width: 92%; background-color: #261372 }
+.timeline .timeline-list .timeline-object.centered .fa {float: none; display: block; position: relative; top: 0; right: 0}
+.timeline .timeline-list .timeline-object.centered::before {content: '';width: 0;height: 0;position: absolute;left: calc(50% - 0.75rem);top: -12px; border-top: 0;border-left: 1em solid transparent;border-right: 1em solid transparent;border-bottom: 1em solid #261372; }
+.timeline .timeline-list .timeline-object.centered::after {display: none; }
+
+/*****************
+ * MEDIA QUERIES *
+ *****************/
+
+/* Small devices (landscape phones, 34em and up) */
+@media (min-width: 34em) {
+
+
+/** THIS SHOULD REMAIN EMPTY AS THIS STYLESHEET IS MOBILE FIRST // ALL MOBILE STYLING ABOVE **/
+
+
+}
+
+/* Medium devices (tablets, 48em and up) */
+@media (min-width: 48em) {
+
+
+}
+
+
+/* Large devices (desktops, 64.063em and up) */
+@media (min-width: 64.063em) {
+
+	
+}
+
+
+
+/** UNCOMMON SIZE **/
+
+@media (min-width: 77em) {
+	
+
+	
+}
+
+
+/* Extra large devices (large desktops, 87em and up) */
+@media (min-width: 87em) {
+
+
+}
+
+
+
+
+/* UNCOMMON BIG DESKTOP (ONLY FOR HEADER WIDTH)**/
+
+@media (min-width: 106em) {
+
+
+}
